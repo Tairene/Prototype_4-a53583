@@ -55,7 +55,6 @@ public class PlayerController : MonoBehaviour
             enemyRigidbody.AddForce(awayFromPlayer * 10, ForceMode.Impulse);
             Debug.Log("Collided with" + collision.gameObject.name + "with poweup set to" + hasPowerup);
         }
-    }
 
  }
 
